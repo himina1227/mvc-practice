@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation 'org.projectlombok:lombok:1.18.26'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.7'
 
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
